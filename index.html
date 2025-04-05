@@ -1,13 +1,7 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
-    <body class="opening hide-UI view-2D zoom-large data-close controls-close">
+<body class="opening hide-UI view-2D zoom-large data-close controls-close">
     <div id="navbar">
       <a id="toggle-data" href="#data"><i class="icon-data"></i>Данные</a>
-      <h1>3D Солнечная Система<br><span>от <a href="https://twitter.com/JulianGarnier" target="_blank">@DaniilZabaikin</a></span></h1>
+      <h1>3D Солнечная Система<br><span>автор <a href="https://twitter.com/JulianGarnier" target="_blank">@Daniil Zabaikin</a></span></h1>
       <a id="toggle-controls" href="#controls"><i class="icon-controls"></i>Управление</a>
     </div>
     <div id="data">
@@ -108,4 +102,43 @@
                   <dd><span></span></dd>
                 </dl>
               </div>
-           
+            </div>
+          </div>
+          <div id="uranus" class="orbit">
+            <div class="pos">
+              <div class="planet">
+                <dl class="infos">
+                  <dt>Уран</dt>
+                  <dd><span></span></dd>
+                </dl>
+              </div>
+            </div>
+          </div>
+          <div id="neptune" class="orbit">
+            <div class="pos">
+              <div class="planet">
+                <dl class="infos">
+                  <dt>Нептун</dt>
+                  <dd><span></span></dd>
+                </dl>
+              </div>
+            </div>
+          </div>
+          <div id="sun">
+            <dl class="infos">
+              <dt>Солнце</dt>
+              <dd><span></span></dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+    <script type="text/javascript">
+    if (typeof jQuery == 'undefined') { 
+      document.write(unescape("%3Cscript src='js/jquery.min.js' type='text/javascript'%3E%3C/script%3E"));
+    }
+    </script>
+    <script src="js/prefixfree.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+</body>
